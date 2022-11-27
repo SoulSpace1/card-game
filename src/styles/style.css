@@ -1,0 +1,108 @@
+@import 'fonts';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+  
+body {
+    font-family: 'Stratos Skyeng', sans-serif;
+    background-color: #004980;
+}
+  
+.screen {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.select-level {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.select-level__form {
+    max-width: 480px;
+    padding: 52px 69px 48px;
+    background: #c2f5ff;
+    border-radius: 12px;
+}
+  
+.select-level__header {
+    color: #004980;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 48px;
+ }
+  
+ .select-level__choose-level {
+    margin-bottom: 67px;
+}
+  
+.select-level__button {
+    margin: 0 auto;
+}
+
+
+.choose-level {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+  
+.choose-level__input {
+    display: none;
+}
+  
+.choose-level:checked + .choose-level__number {
+    border:#0080c1 3px solid;
+}
+  
+.choose-level__level {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+  
+.choose-level__number {
+    width: 98px;
+    height: 98px;
+    background: #ffffff;
+    border-radius: 12px;
+    font-size: 64px;
+    line-height: 1.5;
+    color: #0080c1;
+    border: #ffffff 3px solid;
+}
+
+  
+  .button {
+    width: 246px;
+    height: 50px;
+    background: #7ac100;
+    border-radius: 12px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+  }
+
+
+
+
+/* :root{
+    $blue: #004980;
+    $blue-light: #0080c1;
+    $white: #ffffff;
+    $salad: #7ac100;
+} */
