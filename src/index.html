@@ -1,53 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Карточная игра</title>
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-    <div class="screen" id="start">
-        <div class="screen__select-level select-level">
-          <form action="" class="select-level__form">
-            <div class="select-level__header">Выбери сложность</div>
-            <div class="select-level__choose-level choose-level">
-              <label class="choose-level__level">
-                <input
-                  class="choose-level__input"
-                  type="radio"
-                  name="level"
-                  value="1"
-                />
-                <span class="choose-level__number">1</span>
-              </label>
-              <label class="choose-level__level">
-                <input
-                  class="choose-level__input"
-                  type="radio"
-                  name="level"
-                  value="2"
-                />
-                <span class="choose-level__number">2</span>
-              </label>
-              <label class="choose-level__level">
-                <input
-                  class="choose-level__input"
-                  type="radio"
-                  name="level"
-                  value="3"
-                />
-                <span class="choose-level__number">3</span>
-              </label>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Карточная игра</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+    </head>
+    <body>
+        <div class="screen" id="start">
+            <div class="screen__select-level select-level">
+                <form action="" class="select-level__form">
+                    <div class="select-level__header">Выбери сложность</div>
+                    <div class="select-level__choose-level choose-level">
+                        <label class="choose-level__level">
+                            <input
+                                class="choose-level__input"
+                                type="radio"
+                                name="level"
+                                value="1"
+                            />
+                            <span class="choose-level__number">1</span>
+                        </label>
+                        <label class="choose-level__level">
+                            <input
+                                class="choose-level__input"
+                                type="radio"
+                                name="level"
+                                value="2"
+                            />
+                            <span class="choose-level__number">2</span>
+                        </label>
+                        <label class="choose-level__level">
+                            <input
+                                class="choose-level__input"
+                                type="radio"
+                                name="level"
+                                value="3"
+                            />
+                            <span class="choose-level__number">3</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="select-level__button button">
+                        Старт
+                    </button>
+                </form>
             </div>
-            <button type="submit" class="select-level__button button">
-              Старт
-            </button>
-          </form>
-        </div>
-      </div>
-</body>
+            <!--/*класс hiden добавить в div class="cards__game */  -->
+            <div class=" cards__game ">
+                <div class="cards__game-header">
+                    <div class="cards__game-time">
+                        <div class="cards__game-wrapper">
+                            <p class="cards__game-min">min</p>
+                            <p class="cards__game-sek">sek</p>
+                        </div>
+                        <div class="cards__game-timer timer">00.00</div>
+                    </div>
 
-<script  type="module" src="index.js"></script>
+                    <div class="cards__game-btn btn">Начать заново</div>
+                </div>
+
+                <div class="cards__game-field">
+                    <div class="cards__game-item item-1"></div>
+                    <div class="cards__game-item item-2"></div>
+                    <div class="cards__game-item item-3"></div>
+                    <div class="cards__game-item item-4"></div>
+                    <div class="cards__game-item item-5"></div>
+                    <div class="cards__game-item item-6"></div>
+                    <div class="cards__game-item item-7"></div>
+                    <div class="cards__game-item item-8"></div>
+                    <div class="cards__game-item item-9"></div>
+                    <div class="cards__game-item item-10"></div>
+                    <div class="cards__game-item item-11"></div>
+                    <div class="cards__game-item item-12"></div>
+                    <div class="cards__game-item item-13"></div>
+                    <div class="cards__game-item item-14"></div>
+                    <div class="cards__game-item item-15"></div>
+                    <div class="cards__game-item item-16"></div>
+                    <div class="cards__game-item item-17"></div>
+                    <div class="cards__game-item item-18"></div>
+                    <div class="cards__game-item item-19"></div>
+                    <div class="cards__game-item item-20"></div>
+                    <div class="cards__game-item item-21"></div>
+                    <div class="cards__game-item item-22"></div>
+                    <div class="cards__game-item item-23"></div>
+                    <div class="cards__game-item item-24"></div>
+                    <div class="cards__game-item item-25"></div>
+                    <div class="cards__game-item item-26"></div>
+                    <div class="cards__game-item item-27"></div>
+                    <div class="cards__game-item item-28"></div>
+                    <div class="cards__game-item item-29"></div>
+                    <div class="cards__game-item item-30"></div>
+                    <div class="cards__game-item item-31"></div>
+                    <div class="cards__game-item item-32"></div>
+                    <div class="cards__game-item item-33"></div>
+                    <div class="cards__game-item item-34"></div>
+                    <div class="cards__game-item item-35"></div>
+                    <div class="cards__game-item item-36"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+
+    <script type="module" src="index.js"></script>
 </html>
