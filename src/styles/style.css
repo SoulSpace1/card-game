@@ -9,12 +9,12 @@ img {
     width: 100%;
     height: 100%;
 }
-  
+
 body {
     font-family: 'Stratos Skyeng', sans-serif;
     background-color: #004980;
 }
-  
+
 .screen {
     width: 100%;
     min-height: 100vh;
@@ -27,50 +27,49 @@ body {
     justify-content: center;
     align-items: center;
 }
-  
+
 .select-level__form {
     max-width: 480px;
     padding: 52px 69px 48px;
     background: #c2f5ff;
     border-radius: 12px;
 }
-  
+
 .select-level__header {
     color: #004980;
     font-size: 40px;
     text-align: center;
     margin-bottom: 48px;
- }
-  
- .select-level__choose-level {
+}
+
+.select-level__choose-level {
     margin-bottom: 67px;
 }
-  
+
 .select-level__button {
     margin: 0 auto;
 }
-
 
 .choose-level {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
-  
+
 .choose-level__input {
     display: none;
 }
-  
+
 .choose-level:checked + .choose-level__number {
-    border:#0080c1 3px solid;
+    border: #0080c1 3px solid;
 }
-  
+
 .choose-level__level {
     display: flex;
     text-align: center;
     align-items: center;
 }
-  
+
 .choose-level__number {
     width: 98px;
     height: 98px;
@@ -82,8 +81,7 @@ body {
     border: #ffffff 3px solid;
 }
 
-  
-  .button {
+.button {
     width: 246px;
     height: 50px;
     background: #7ac100;
@@ -95,14 +93,259 @@ body {
     text-align: center;
     color: #ffffff;
     border: none;
-  }
-
-
-
+}
 
 /* :root{
     $blue: #004980;
     $blue-light: #0080c1;
     $white: #ffffff;
     $salad: #7ac100;
+} */
+
+.cards__game {
+    width: 1034px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__game-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards__game-time {
+    color: white;
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    width: 155px;
+}
+
+.cards__game-wrapper {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 57px;
+         column-gap: 57px;
+    justify-content: flex-end;
+    margin-right: 14px;
+    height: 33px;
+}
+
+.cards__game-min, .cards__game-sek {
+    font-size: 16px;
+    line-height: 32px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffffff;
+}
+
+.cards__game-timer {
+    font-size: 64px;
+    line-height: 72px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.cards__game-btn {
+    margin-top: 40px;
+}
+
+.cards__game-field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+    width: 1034px;
+}
+
+.cards__game-item {
+    width: 95px;
+    height: 133px;
+}
+  
+.cards__game-item:hover {
+    cursor: pointer;
+}
+  
+.item-1 {
+    background: url("./img/cards/0.png");
+    background: url("./img/card-bg.jpg");
+}
+  
+.item-2 {
+    background: url("./img/cards/1.png");
+}
+  
+.item-3 {
+    background: url("./img/cards/2.png");
+}
+  
+.item-4 {
+    background: url("./img/cards/3.png");
+}
+  
+.item-5 {
+    background: url("./img/cards/4.png");
+}
+  
+.item-6 {
+    background: url("./img/cards/5.png");
+}
+  
+.item-7 {
+    background: url("./img/cards/6.png");
+}
+  
+.item-8 {
+    background: url("./img/cards/7.png");
+}
+  
+.item-9 {
+    background: url("./img/cards/8.png");
+}
+  
+.item-10 {
+    background: url("./img/cards/9.png");
+}
+  
+.item-11 {
+    background: url("./img/cards/10.png");
+}
+  
+.item-12 {
+    background: url("./img/cards/11.png");
+}
+  
+.item-13 {
+    background: url("./img/cards/12.png");
+}
+  
+.item-14 {
+    background: url("./img/cards/13.png");
+}
+  
+.item-15 {
+    background: url("./img/cards/14.png");
+}
+  
+.item-16 {
+    background: url("./img/cards/15.png");
+}
+  
+.item-17 {
+    background: url("./img/cards/16.png");
+}
+  
+.item-18 {
+    background: url("./img/cards/17.png");
+}
+  
+.item-19 {
+    background: url("./img/cards/18.png");
+}
+  
+.item-20 {
+    background: url("./img/cards/19.png");
+}
+  
+.item-21 {
+    background: url("./img/cards/20.png");
+}
+  
+.item-22 {
+    background: url("./img/cards/21.png");
+}
+  
+.item-23 {
+    background: url("./img/cards/22.png");
+}
+  
+  .item-24 {
+    background: url("./img/cards/23.png");
+}
+  
+.item-25 {
+    background: url("./img/cards/24.png");
+}
+  
+.item-26 {
+    background: url("./img/cards/25.png");
+}
+  
+.item-27 {
+    background: url("./img/cards/26.png");
+}
+  
+.item-28 {
+    background: url("./img/cards/27.png");
+}
+  
+.item-29 {
+    background: url("./img/cards/28.png");
+}
+  
+.item-30 {
+    background: url("./img/cards/29.png");
+}
+  
+.item-31 {
+    background: url("./img/cards/30.png");
+}
+  
+.item-32 {
+    background: url("./img/cards/31.png");
+}
+  
+.item-33 {
+    background: url("./img/cards/32.png");
+}
+  
+.item-34 {
+    background: url("./img/cards/33.png");
+}
+  
+.item-35 {
+    background: url("./img/cards/34.png");
+}
+  
+.item-36 {
+    background: url("./img/cards/35.png");
+}
+
+.btn {
+    width: 246px;
+    height: 50px;
+    background: #7ac100;
+    border-radius: 12px;
+    border: 0px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+  
+.hiden {
+    display: none;
+}
+  
+/* .defaultCard {
+    background: url("./img/card-bg.jpg");
 } */
